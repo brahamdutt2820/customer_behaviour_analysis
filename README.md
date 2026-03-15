@@ -175,7 +175,7 @@ A project presentation was created using **Gamma** to summarize the key findings
 
 # Dashboard Preview
 
-*(Add screenshots of your Power BI dashboard here)*
+![Customer Behavior Dashboard](customer_behavior_dashboard_preview.png)
 
 Example:
 
