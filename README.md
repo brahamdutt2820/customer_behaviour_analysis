@@ -177,12 +177,6 @@ A project presentation was created using **Gamma** to summarize the key findings
 
 ![Customer Behavior Dashboard](customer_behavior_dashboard_preview.png)
 
-Example:
-
-```
-images/dashboard_preview.png
-```
-
 The dashboard provides a visual summary of customer purchasing patterns and key business insights.
 
 ---
