@@ -200,7 +200,7 @@ These insights can help businesses improve **marketing strategies, product offer
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/customer-behavior-analysis.git
+git clone https://github.com/brahamdutt2820/customer-behavior-analysis.git
 ```
 
 ### 2. Install required Python libraries
