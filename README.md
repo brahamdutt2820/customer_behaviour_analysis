@@ -1,237 +1,233 @@
-Customer Behavior Analysis Dashboard
-Overview
+# Customer Behavior Analysis Dashboard
 
-This project analyzes customer shopping behavior to uncover patterns in purchasing habits, demographics, and product preferences. The analysis combines Python for data exploration, MySQL for query-based analysis, and Power BI for interactive visualization.
+## Overview
 
-The goal of the project is to transform raw customer transaction data into meaningful insights that can support better business decisions. The project follows a complete data analytics workflow, including data loading, exploratory data analysis (EDA), data cleaning, SQL-based analysis, dashboard development, and report creation.
+This project analyzes customer shopping behavior to uncover patterns in purchasing habits, demographics, and product preferences. The analysis combines **Python for data exploration**, **MySQL for query-based analysis**, and **Power BI for interactive visualization**.
 
-Dataset
+The goal of the project is to transform raw customer transaction data into meaningful insights that can support better business decisions. The project follows a complete **data analytics workflow**, including data loading, exploratory data analysis (EDA), data cleaning, SQL-based analysis, dashboard development, and report creation.
+
+---
+
+# Dataset
 
 The dataset contains customer shopping information including demographic details, product categories, purchase amounts, and transaction attributes.
 
-Key features in the dataset include:
+### Key features in the dataset include:
 
-Customer ID
+- Customer ID  
+- Age  
+- Gender  
+- Item Purchased  
+- Category  
+- Purchase Amount (USD)  
+- Location  
+- Season  
+- Review Rating  
+- Shipping Type  
+- Subscription Status  
+- Discount Applied  
+- Promo Code Used  
+- Previous Purchases  
+- Payment Method  
+- Frequency of Purchases  
 
-Age
+The dataset is used to understand **customer demographics, spending patterns, and purchasing trends**.
 
-Gender
+---
 
-Item Purchased
-
-Category
-
-Purchase Amount (USD)
-
-Location
-
-Season
-
-Review Rating
-
-Shipping Type
-
-Subscription Status
-
-Discount Applied
-
-Promo Code Used
-
-Previous Purchases
-
-Payment Method
-
-Frequency of Purchases
-
-The dataset is used to understand customer demographics, spending patterns, and purchasing trends.
-
-Tools and Technologies
+# Tools and Technologies
 
 This project uses multiple tools across the data analytics pipeline.
 
-Python
+## Python
+- Data loading
+- Data cleaning
+- Exploratory Data Analysis (EDA)
 
-Data loading
+## MySQL
+- SQL queries for business analysis
+- Aggregation and customer segmentation
 
-Data cleaning
+## Power BI
+- Interactive dashboard
+- Data visualization
+- KPI tracking
 
-Exploratory Data Analysis (EDA)
+## Jupyter Notebook
+- Python analysis environment
 
-MySQL
+## Gamma
+- Presentation creation
 
-SQL queries for business analysis
+## GitHub
+- Version control and project documentation
 
-Aggregation and customer segmentation
+---
 
-Power BI
-
-Interactive dashboard
-
-Data visualization
-
-KPI tracking
-
-Jupyter Notebook
-
-Python analysis environment
-
-Gamma
-
-Presentation creation
-
-GitHub
-
-Version control and project documentation
-
-Project Workflow
+# Project Workflow
 
 The project follows a structured analytics workflow:
 
+```
 Dataset
-→ Data Loading in Python
-→ Data Cleaning
-→ Exploratory Data Analysis (EDA)
-→ SQL Analysis in MySQL
-→ Power BI Dashboard Development
-→ Project Report Creation
-→ Presentation using Gamma
+↓
+Data Loading in Python
+↓
+Data Cleaning
+↓
+Exploratory Data Analysis (EDA)
+↓
+SQL Analysis in MySQL
+↓
+Power BI Dashboard Development
+↓
+Project Report Creation
+↓
+Presentation using Gamma
+```
 
-Steps Performed
-1. Data Loading
+---
 
-The dataset was imported into Python using the Pandas library for analysis.
+# Steps Performed
 
-2. Data Cleaning
+## 1. Data Loading
+
+The dataset was imported into Python using the **Pandas library** for analysis.
+
+---
+
+## 2. Data Cleaning
 
 Data preprocessing was performed to improve data quality. This included:
 
-Standardizing column names
+- Standardizing column names  
+- Checking for missing values  
+- Ensuring correct data types  
+- Preparing the dataset for analysis  
 
-Checking for missing values
+---
 
-Ensuring correct data types
-
-Preparing the dataset for analysis
-
-3. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 EDA was performed to understand the structure and patterns in the dataset.
 
-Key analyses included:
+### Key analyses included:
 
-Age distribution of customers
+- Age distribution of customers  
+- Purchase amount distribution  
+- Product category popularity  
+- Payment method usage  
+- Seasonal purchasing patterns  
 
-Purchase amount distribution
+Visualization libraries such as **Matplotlib** and **Seaborn** were used to create charts.
 
-Product category popularity
+---
 
-Payment method usage
-
-Seasonal purchasing patterns
-
-Visualization libraries such as Matplotlib and Seaborn were used to create charts.
-
-4. SQL Analysis in MySQL
+## 4. SQL Analysis in MySQL
 
 SQL queries were written to answer business questions such as:
 
-Revenue generated by different customer groups
-
-Impact of discounts on customer spending
-
-Top rated products
-
-Customer segmentation based on previous purchases
-
-Revenue contribution by age group
+- Revenue generated by different customer groups  
+- Impact of discounts on customer spending  
+- Top rated products  
+- Customer segmentation based on previous purchases  
+- Revenue contribution by age group  
 
 These queries helped generate deeper analytical insights from the dataset.
 
-5. Power BI Dashboard
+---
 
-An interactive dashboard was created in Power BI to visualize the results.
+## 5. Power BI Dashboard
 
-Key dashboard components include:
+An interactive dashboard was created in **Power BI** to visualize the results.
 
-Total revenue KPI
+### Key dashboard components include:
 
-Category-wise sales
-
-Customer demographics
-
-Seasonal sales trends
-
-Payment method distribution
-
-Discount impact analysis
-
-Customer loyalty insights
+- Total revenue KPI  
+- Category-wise sales  
+- Customer demographics  
+- Seasonal sales trends  
+- Payment method distribution  
+- Discount impact analysis  
+- Customer loyalty insights  
 
 The dashboard allows users to explore insights interactively.
 
-6. Project Report
+---
+
+## 6. Project Report
 
 A detailed project report was prepared explaining:
 
-project objectives
+- Project objectives  
+- Methodology  
+- Data analysis process  
+- Dashboard insights  
+- Business recommendations  
 
-methodology
+---
 
-data analysis process
+## 7. Presentation
 
-dashboard insights
+A project presentation was created using **Gamma** to summarize the key findings and demonstrate the dashboard.
 
-business recommendations
+---
 
-7. Presentation
+# Dashboard Preview
 
-A project presentation was created using Gamma to summarize the key findings and demonstrate the dashboard.
-
-Dashboard Preview
-
-(Add screenshots of your Power BI dashboard here)
+*(Add screenshots of your Power BI dashboard here)*
 
 Example:
 
+```
 images/dashboard_preview.png
+```
 
 The dashboard provides a visual summary of customer purchasing patterns and key business insights.
 
-Key Results and Insights
+---
+
+# Key Results and Insights
 
 The analysis revealed several useful insights:
 
-Certain product categories generate higher revenue than others.
+- Certain product categories generate higher revenue than others.  
+- Digital payment methods are widely preferred by customers.  
+- Discounts and promotional codes increase purchase frequency.  
+- Seasonal trends influence purchasing behavior.  
+- Customers with higher previous purchases show stronger loyalty.  
 
-Digital payment methods are widely preferred by customers.
+These insights can help businesses improve **marketing strategies, product offerings, and customer engagement**.
 
-Discounts and promotional codes increase purchase frequency.
+---
 
-Seasonal trends influence purchasing behavior.
+# How to Run the Project
 
-Customers with higher previous purchases show stronger loyalty.
+### 1. Clone the repository
 
-These insights can help businesses improve marketing strategies, product offerings, and customer engagement.
-
-How to Run the Project
-
-Clone the repository
-
+```
 git clone https://github.com/your-username/customer-behavior-analysis.git
+```
 
-Install required Python libraries
+### 2. Install required Python libraries
 
+```
 pip install pandas matplotlib seaborn
+```
 
-Run the Jupyter Notebook
+### 3. Run the Jupyter Notebook
 
+```
 jupyter notebook
+```
 
-Import the dataset into MySQL to run SQL queries.
+### 4. Import the dataset into MySQL to run SQL queries.
 
-Open the Power BI file (.pbix) to explore the dashboard.
+### 5. Open the Power BI file (`.pbix`) to explore the dashboard.
 
-Author
+---
 
-Braham Dutt Bhardwaj
+# Author
+
+**Braham Dutt Bhardwaj**  
 Aspiring Data Analyst
